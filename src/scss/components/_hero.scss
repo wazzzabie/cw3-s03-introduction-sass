@@ -1,0 +1,12 @@
+.hero {
+  align-items: center;
+  background: var(--couleur-primaire);
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+
+  h1{
+    padding: 85px 0 85px;
+  }
+}
+

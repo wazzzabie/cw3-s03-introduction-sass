@@ -1,0 +1,14 @@
+
+
+.bouton {
+  background: var(--couleur-primaire);
+  border: 1px solid #E64A19;
+  border-radius: 5px;
+  padding: 10px;
+}
+.bouton:hover {
+  background: #E64A19;
+  border: 1px solid #E64A19;
+  color: var(--couleur-blanc);;
+  text-decoration: none;
+}

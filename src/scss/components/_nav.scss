@@ -1,0 +1,12 @@
+.nav-principale {
+  display: flex;
+  justify-content: flex-end;
+;
+}
+.nav-principale ul {
+  display: flex;
+}
+
+.nav-principale li {
+  margin: 0 var(--marge-petit);
+}

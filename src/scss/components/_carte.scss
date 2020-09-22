@@ -1,0 +1,45 @@
+
+.carte {
+  background: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+
+  header {
+    --couleur-primaire: tomato;
+    background: var(--couleur-primaire);
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  &:nth-child(1) header{
+    --couleur-primaire: #E34E26;
+  }
+
+  &:nth-child(2) header{
+    --couleur-primaire: #0270BB;
+  }
+
+  &:nth-child(3) header{
+    --couleur-primaire: #F8DC3D;
+  }
+
+  h2{
+    padding-top: 20px;
+  }
+
+  &.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+
+
+.carte-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
